@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div id="left-header">
+				<a href="#"><img src="images/アートワーク 7.png" alt="logo"></a>
+				<button>サポートサイト</button>
+				<ul>
+					<li><a href="#" class="list-item" id="active">検査結果画面の解説</a></li>
+					<li><a href="#" class="list-item">主な機能</a></li>
+					<li><a href="#" class="list-item">利用シーン別ガイド</a></li>
+					<li><a href="#" class="list-item">初めてご利用の方へ</a></li>
+					<li><a href="#" class="list-item">FAQ</a></li>
+				</ul>
+			</div>
+			<div id="right-header">
+				<div id="login-section">
+					<div id="house-float-left">
+						<a href="#">
+							<i class="fa-solid fa-house style-fontawesome"></i><span>トップ</span>
+						</a>
+					</div>
+					<div id="login-float-right">
+						<a href="#">
+							<span>ログイン</span><i class="fa-solid fa-arrow-up-right-from-square style-fontawesome"></i>
+						</a>
+						<a href="#">
+							<span>お問い合わせ</span><i class="fa-regular fa-envelope style-fontawesome"></i>
+						</a>
+					</div>
+				</div>
+				<nav>
+					<i class="fa-solid fa-bars fa-2xl" onclick="openAndClose()"></i>
+					<ul id="nav-item">
+						<li><a href="#" class="nav-list-item" id="nav-active">検査結果画面の解説</a></li>
+						<li><a href="#" class="nav-list-item">主な機能</a></li>
+						<li><a href="#" class="nav-list-item">利用シーン別ガイド</a></li>
+						<li><a href="#" class="nav-list-item">初めてご利用の方へ</a></li>
+						<li><a href="#" class="nav-list-item">FAQ</a></li>
+					</ul>
+				</nav>
+				<div id="search-section">
+					<span>どんな事でお困りですか？</span>
+					<input type="text" placeholder="キーワードを入力">
+					<button>検索</button>
+				</div>
+				<div class="banner">
+					<a href="#">
+						<img src="images/アートワーク 38.png" alt="">
+						<div class="banner-title">
+							<h1>利用シーン別ガイド</h1>
+							<p>SALES SCOREを様々なシーンでご活用いただく方法をご紹介します。</p>
+						</div>
+					</a>
+				</div>
+				<div id="service">
+					<div class="service-item">
+						<a href="#">
+							<img src="images/1.png" alt="">
+							<p>受検者の営業活動の特徴を見える化したい</p>
+						</a>
+					</div>
+					<div class="service-item">
+						<a href="#">
+							<img src="images/2.png" alt="">
+							<p>ポテンシャルの高い人材を採用したい</p>
+						</a>
+					</div>
+					<div class="service-item">
+						<a href="#">
+							<img src="images/3.png" alt="">
+							<p>離職率を改善したい</p>
+						</a>
+					</div>
+					<div class="service-item">
+						<a href="#">
+							<img src="images/4.png" alt="">
+							<p>成績優秀層を分析したい</p>
+						</a>
+					</div>
+					<div class="service-item">
+						<a href="#">
+							<img src="images/5.png" alt="">
+							<p>自社の特徴を理解したい</p>
+						</a>
+					</div>
+					<div class="service-item">
+						<a href="#">
+							<img src="images/6.png" alt="">
+							<p>社員のコミュニケーションを改善したい</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="first-section">
+			<div class="banner">
+				<a href="#">
+					<img src="images/アートワーク 8.png" alt="">
+					<div class="banner-title">
+						<h1>検査結果画面の解説</h1>
+						<p>SALES SCOREのアウトプット項目について紹介します。</p>
+					</div>
+				</a>
+			</div>
+			<div id="future-goal-container">
+				<hr>
+				<h2>適性検査のアウトプット</h2>
+				<div class="future-goal">
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47503.png" alt="">
+							<p>データサマリー</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47547.png" alt="">
+							<p>データ詳細</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47550.png" alt="">
+							<p>データ比較</p>
+						</a>
+					</div>
+				</div>
+				<hr>
+				<h2>企業傾向分析</h2>
+				<div class="future-goal">
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47553.png" alt="">
+							<p>全体比較</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47556.png" alt="">
+							<p>営業タイプ傾向</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47557.png" alt="">
+							<p>High-Low分析</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47558.png" alt="">
+							<p>構成比比較</p>
+						</a>
+					</div>
+				</div>
+				<hr>
+				<h2>検査結果詳細</h2>
+				<div class="future-goal">
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47565.png" alt="">
+							<p>表示される予測値</p>
+						</a>
+					</div>
+					<div class="future-goal-item">
+						<a href="#">
+							<img src="images/Group 47563.png" alt="">
+							<p>表示される営業タイプ</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<section id="second-section">
+			<div class="banner">
+				<a href="#">
+					<img src="images/アートワーク 39.png" alt="">
+					<div class="banner-title">
+						<h1>主な機能</h1>
+						<p>SALES SCOREの利用方法及び、ツールに表示される項目について紹介します。</p>
+					</div>
+				</a>
+			</div>
+			<div id="function-container">
+				<div class="function-item">
+					<hr>
+					<h2>管理者</h2>
+					<ul>
+						<li><a href="#">管理者の登録・編集</a></li>
+						<li><a href="#">表示される管理者情報</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>従業員</h2>
+					<ul>
+						<li><a href="#">従業員の登録・編集</a></li>
+						<li><a href="#">表示される従業員情報</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>応募者</h2>
+					<ul>
+						<li><a href="#">応募者の登録・編集</a></li>
+						<li><a href="#">表示される応募者情報</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>実績データの登録</h2>
+					<ul>
+						<li><a href="#">実績の登録・編集</a></li>
+						<li><a href="#">分析対象範囲の指定</a></li>
+						<li><a href="#">成績区分の指定</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>適性検査</h2>
+					<ul>
+						<li><a href="#">適性検査推奨環境</a></li>
+						<li><a href="#">受検メールの送信</a></li>
+						<li><a href="#">ＵＲＬの発行</a></li>
+						<li><a href="#">受検者のステータス</a></li>
+						<li><a href="#">検査実施項目</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>ダッシュボード機能</h2>
+					<ul>
+						<li><a href="#">実績データ分析機能</a></li>
+						<li><a href="#">運用サポート機能</a></li>
+					</ul>
+				</div>
+				<div class="function-item">
+					<hr>
+					<h2>契約について</h2>
+					<ul>
+						<li><a href="#">契約情報の確認</a></li>
+						<li><a href="#">解約の方法</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<span>Copyright © 2022 SALES SCORE All Right Reserved.</span>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

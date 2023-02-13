@@ -1,0 +1,533 @@
+@font-face {
+	font-family: "NotoSansJP-Black";
+	src: url("../fonts/NotoSansJP-Black.otf");
+}
+
+@font-face {
+	font-family: "NotoSansJP-Bold";
+	src: url("../fonts/NotoSansJP-Bold.otf");
+}
+
+@font-face {
+	font-family: "NotoSansJP-Light";
+	src: url("../fonts/NotoSansJP-Light.otf");
+}
+
+@font-face {
+	font-family: "NotoSansJP-Medium";
+	src: url("../fonts/NotoSansJP-Medium.otf");
+}
+
+@font-face {
+	font-family: "NotoSansJP-Regular";
+	src: url("../fonts/NotoSansJP-Regular.otf");
+}
+
+@font-face {
+	font-family: "NotoSansJP-Thin";
+	src: url("../fonts/NotoSansJP-Thin.otf");
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header, main {
+	margin-left: 360px;
+	margin-right: 360px;
+}
+
+footer {
+	background-color: #333333;
+	font-size: 12px;
+	font-family: NotoSansJP-Regular;
+	padding-top: 28px;
+	padding-bottom: 31px;
+	padding-left: 1225px;
+	color: #EAF1F7;
+}
+
+div#header {
+	display: flex;
+}
+
+div#left-header {
+	border: 3px solid #EAF1F7;
+	margin-top: 10px;
+	margin-right: 50px;
+	padding-bottom: 0;
+	max-height: 535px;
+}
+
+div#left-header button, div#left-header img {
+	display: block;
+}
+
+div#left-header img {
+	margin: 32px 31px 20px 25.7px;
+}
+
+div#left-header button {
+	background-color: #42A7C2;
+	color: #EAF1F7;
+	font-family: NotoSansJP-Bold;
+	font-size: 18px;
+	padding: 8px 22px 9px 20px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 21px;
+	margin-right: 23px;
+	margin-bottom: 27px;
+}
+
+div#left-header ul {
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div#left-header ul li {
+	border: 1px solid #EAF1F7;
+	font-size: 16px;
+	margin-left: -42px;
+	padding: 25px 33px 21px 19px;
+}
+
+div#left-header ul li::after {
+	content: url("../images/fa-solid fa-angle-right.png");
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+div#right-header {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.style-fontawesome {
+	color: #7B7B7B;
+}
+
+
+div#login-section {
+	display: flex;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+div#login-section > div:first-child span {
+	margin-left: 15px;
+}
+
+div#login-section > div:last-child {
+	margin-left: auto;
+}
+
+div#login-section > div:last-child span {
+	margin-right: 9px;
+}
+
+div#login-section > div:last-child span:last-of-type {
+	margin-left: 28px;
+}
+
+nav {
+	display: none;
+}
+
+#nav-active, #active, .list-item:hover, .nav-list-item:hover {
+  color: #42A7C2;
+}
+
+div#search-section {
+	display: flex;
+	background-color: #EAF1F7;
+	padding: 20px 100px 20px 85px;
+	border-radius: 40px;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+div#search-section span {
+	margin-right: 10px;
+}
+
+div#search-section input {
+	padding-left: 20px;
+	background: url("../images/magnifying-glass-solid.svg") no-repeat left;
+	background-size: 18px;
+	background-position: 20px;
+	border-radius: 40px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+	width: 420px;
+	background-color: #FFFFFF;
+	border: 1px solid #EAF1F7;
+	margin-right: 13px;
+	box-sizing: border-box;
+	text-align: right;
+	padding-right: 20px;
+}
+
+div#search-section input::placeholder {
+	padding-right: 190px;
+	padding-left: 30px;
+}
+
+div#search-section button {
+	background-color: #42A7C2;
+	color: #EAF1F7;
+	font-size: 16px;
+	padding: 11px 31px 14px 31px;
+	border-radius: 8px;
+	border: none;
+}
+
+div.banner a{
+	display: flex;
+	align-items: center;
+}
+
+div.banner img {
+	margin-right: 20px;
+}
+
+div.banner-title h1 {
+	font-family: NotoSansJP-Bold;
+	font-size: 26px;
+	color: #42A7C2;
+}
+
+
+div#service {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 15px;
+}
+
+div#service .service-item {
+	border: 1px solid #42A7C2;
+	text-align: center;
+	border-radius: 10px;
+	padding: 22px 42px 27px 42px;
+}
+
+div#service .service-item p {
+	display: block;
+	color: #42A7C2;
+	font-family: NotoSansJP-Bold;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-decoration: none;
+}
+
+main {
+	padding-top: 80px;
+	padding-bottom: 150px;
+	padding-left: 275px;
+}
+
+div.future-goal {
+	display: grid;
+	grid-gap: 17px;
+	grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+}
+
+div.future-goal:first-of-type {
+	margin-bottom: 50px;
+}
+
+div.future-goal:nth-of-type(2) {
+	margin-bottom: 60px;
+}
+
+div.future-goal:last-of-type {
+	margin-bottom: 96.5px;
+}
+
+div#future-goal-container {
+	margin-top: 30px;
+}
+
+div.future-goal .future-goal-item {
+	color: #42A7C2;
+	background-color: #EAF1F7;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 8px;
+}
+
+div.future-goal .future-goal-item p {
+	color: #42A7C2;
+}
+
+div#future-goal-container h2, div#function-container h2 {
+	display: inline-block;
+	font-family: NotoSansJP-Bold;
+	font-size: 20px;
+	color: #42A7C2;
+	border-top: 4px solid #42A7C2;
+	padding-top: 21px;
+	margin-top: -10px;
+}
+
+div#future-goal-container hr,  div#function-container hr {
+	background-color: #42A7C2;
+}
+
+div#function-container {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 15.5px;
+}
+
+div#function-container ul {
+	color: #42A7C2;
+	font-family: NotoSansJP-Medium;
+	font-size: 16px;
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 35px;
+	margin-top: -5px;
+}
+
+div#function-container ul li:before {
+    content:"·";
+    font-size:30px;
+    vertical-align: top;
+    line-height:35px;
+}
+
+div#function-container ul li a {
+    color: #42A7C2;
+}
+
+@media screen and (max-width: 1910px) {
+	header, main {
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+
+	div#search-section input {
+		width: 50%;
+	}
+
+	div#search-section {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	header, main {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+	div#search-section input {
+		width: 45%;
+	}
+	footer {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	div#search-section {
+		padding: 20px 20px 20px 15px;
+	}
+
+}
+
+
+@media screen and (max-width: 1300px) {
+	header, main {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+	div#search-section input {
+		width: 40%;
+	}
+
+	div#search-section {
+		padding: 20px 10px 20px 5px;
+	}
+
+	div#search-section button {
+		padding: 11px 21px 14px 21px;
+	}
+}
+
+
+@media screen and (max-width: 1000px) {
+	header, main {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	div#service {
+		grid-template-columns: auto auto;
+	}
+
+	div.future-goal {
+		grid-template-columns: 48% 48%;
+	}
+
+	div#search-section span {
+		display: block;
+	}
+
+	div#search-section input {
+		width: 65%;
+	}
+
+}
+
+
+@media screen and (max-width: 700px) {
+	header, main {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	div#service {
+		grid-template-columns: auto;
+	}
+
+	div.future-goal {
+		grid-template-columns: 100%;
+	}
+
+	div#search-section input {
+		width: 70%;
+	}
+
+	div#function-container {
+		text-align: center;
+		grid-template-columns: auto;
+	}
+
+	div.banner a {
+		display: block;
+		text-align: center;
+	}
+
+	div.banner img {
+		width: 50%;
+	}
+
+	div#header {
+		display: block;
+	}
+
+	main {
+		padding-left: 0;
+	}
+
+	div#left-header {
+		display: none;
+	}
+
+	div#search-section input::placeholder {
+		padding-right: 100px;
+		padding-left: 30px;
+	}
+
+	nav {
+		display: flex;
+		font-family: NotoSansJP-Regular;
+		margin-bottom: 20px;
+	}
+
+	nav i {
+		margin-top: 30px;
+		cursor: pointer;
+	}
+
+	nav ul {
+		display: flex;
+		list-style-type: none;
+		font-size: 0.75em;
+		justify-content: space-between;
+		border: 1px solid #EAF1F7;
+	}
+
+	nav ul li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	nav ul li:not(:last-child)::after {
+		content: url("../images/fa-solid fa-angle-right.png");
+	    vertical-align: middle;
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	nav ul {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul li {
+		margin-left: -30px;
+	}
+
+	nav ul li:not(:last-child)::after {
+		content: "";
+	}
+
+	div#login-section {
+		font-size: 0.75em;
+	}
+
+	div#login-section > div:first-child span {
+		margin-left: 5px;
+	}
+
+	div#login-section > div:last-child {
+		margin-left: auto;
+	}
+
+	div#login-section > div:last-child span {
+		margin-right: 4px;
+	}
+
+	div#login-section > div:last-child span:last-of-type {
+		margin-left: 18px;
+	}
+
+	div#search-section input {
+		width: 90%;
+	}
+
+	div#search-section button {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	div#login-section span {
+		display: none;
+	}
+
+	div#login-section i:last-of-type {
+		margin-left: 10px;
+	}
+
+	div#login-float-right {
+		display: flex;
+	}
+}
+
+
+
+
